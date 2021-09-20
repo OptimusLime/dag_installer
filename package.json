@@ -1,0 +1,30 @@
+{
+  "name": "dag_installer",
+  "version": "0.0.1",
+  "description": "Dependency graph install after npm install",
+  "main": "lib/index.js",
+  "bin": {
+    "dagi": "lib/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "toposort": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OptimusLime/dag_installer.git"
+  },
+  "author": "Paul Szerlip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OptimusLime/dag_installer/issues"
+  },
+  "homepage": "https://github.com/OptimusLime/dag_installer#readme"
+}
