@@ -1,19 +1,23 @@
 {
   "name": "dag_installer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Dependency graph install after npm install",
   "main": "lib/index.js",
   "bin": {
     "dagi": "lib/index.js"
   },
+  "files": [
+    "lib/index.js"
+  ],
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
     "@oclif/command": "^1.8.0",
+    "lodash": "^4.17.21",
+    "shelljs": "^0.8.4",
     "toposort": "^2.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
