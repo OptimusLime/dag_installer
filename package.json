@@ -1,6 +1,6 @@
 {
   "name": "dag_installer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Dependency graph install after npm install",
   "main": "lib/index.js",
   "bin": {
